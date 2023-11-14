@@ -1,5 +1,12 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12887955&assignment_repo_type=AssignmentRepo)
-# Wildcard Project
+# Wildcard Project : Ford Fulkerson Algorithm 
 
-You have a cool idea for an algorithms project? Use this repository. Make sure
-to explain what problem you're solving and how you're doing it.
+The Ford Fulkerson Algorithm finds the 'max flow' in a network / graph. Ford Fulkerson is a greedy algorithm that finds augmenting paths (using DFS) from a residual graph and then updates the flow capacities in the residual graph using the min flow capacity in the current path. The algorithm will repeat this process until there is no longer a path from the start to the target (i.e. capacities are full, therefore a path will no longer exist). 
+
+Implement the Ford Fulkerson Algorithm using the Depth First Search function from the search-in-graphs excersise
+
+## Runtime Analysis
+
+What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
+answer, including your reasoning, to this markdown file.
+
