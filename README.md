@@ -10,3 +10,7 @@ Implement the Ford Fulkerson Algorithm using the Depth First Search function fro
 What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
 
+- Depth First Search : In worst case we have to visit every edge of every node in the graph, therefore the time complexity would be $O(V+E)$
+- Ford Fulkerson (total time complexity) : We have to visit every edge in the graph, and at every visit we call DFS. Therefore the total time complexity is $O(E * (V+E))$
+
+
