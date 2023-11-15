@@ -11,6 +11,6 @@ What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
 
 - Depth First Search : In worst case we have to visit every edge of every node in the graph, therefore the time complexity would be $O(V+E)$
-- Ford Fulkerson (total time complexity) : We have to visit every edge in the path from the call to DFS. Therefore the total time complexity is $O(E * (V+E))$
+- Ford Fulkerson (total time complexity) : We have to visit every edge in the path from the call to DFS to find the max flow. We must also take into account that the max number of iterations through the algorithm will end up being the max flow, therefore the total time complexity is $O(E * (V+E) * f)$
 
 
